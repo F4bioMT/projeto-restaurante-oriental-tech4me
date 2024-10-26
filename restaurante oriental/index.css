@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'JapanRich Regular';
+    src: url('font/JapanRich-Regular.otf') format('opentype');
+}
+
+.new-top-bar{
+    background-color: #202426;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 2px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 4px red;
+}
+
+.entregas_s{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.logo_bar{
+    width: 70px;
+    margin-right: 0px;
+}
+
+.navbar{
+    background-color: #F8485E;
+}
+
+.nav-link{
+    list-style: none;
+    letter-spacing: .1em;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+    margin-left: 30px;
+}
+
+body{
+    background-image: url("images/background.png"); background-size: cover;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px #3F2021;
+}
+
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+  .logo-main {
+    max-width: 100%;
+    max-height: 100%;
+    width: 500px;
+}
+
+.texto-apresentacao {
+    text-align: center;
+  }
+
+.maintext{
+    margin: 40px;
+    margin-bottom: 100px;
+}
+
+.ttitle{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bem-vindo{
+    font-family: 'JapanRich Regular', sans-serif;
+}
+
+.card{
+    background-color: #202426;
+    color: aliceblue;
+    box-shadow: 3px 3px 6px #F8485E;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    transition: transform 0.4s ease;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.cardplace{
+    display: flex;
+    margin: 50px;
+}
+
+.vejamais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vjmais{
+    font-family: 'JapanRich Regular', sans-serif;
+}
+
+.card-title{
+    font-family: 'JapanRich Regular', sans-serif;
+}
+
+.contador {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: 4px 4px 8px #F8485E;
+
+}
+
+.contador h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+#tempo-restante {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+}

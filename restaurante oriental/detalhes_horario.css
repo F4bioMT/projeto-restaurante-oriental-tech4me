@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'JapanRich Regular';
+    src: url('font/JapanRich-Regular.otf') format('opentype');
+}
+
+body{
+    background-image: url("images/background.png"); background-size: cover;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px red;
+}
+
+.general-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: #343579;
+    max-width: 540px;
+    color: aliceblue;
+    box-shadow: 9px 9px 18px #F8485E;
+}
+
+.card-title{
+    margin: 15px;
+}
+
+.data{
+    margin: 20px;    
+}
